@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+/* font-family: 'Krona One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+  padding: 0px;
+  margin: 0px;
+  color: #7e7e7e;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  /* background-color: #222222; */
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 50px;
+  margin-right: 5px;
+}
+
+h1{
+  font-family: 'Krona One', sans-serif;
+  color: white;
+  font-size: 30px;
+  /* text-shadow: 0px 3px 0px #121212, 0px 4px 0px #00bf72; */
+/*   margin-bottom: 30px;
+  margin-top: 20px; */
+}
+
+.container{
+  width: 600px;
+  height: 500px;
+  background-color: #121212;
+  border-radius: 10px;
+  border: 0px #006eff solid;
+  
+  padding: 35px;  
+  box-shadow: 0px 5px 0px #00bf72, 0px -5px 0px #00bf72, 0px 0px 20px #000000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.red {
+  color: #00bf72;
+}
+
+.cajas{
+  /* width: 400px; */
+  height: 25px;
+  margin-right: 0px;
+  border: 1px #00bf72 solid;
+  background-color: #000000;
+  color: white;
+}
+
+.caja-texto{
+  width: 85%;
+}
+
+.caja-numero{
+  width: 15%;
+}
+
+
+
+.header__search{
+  width: 90%;
+  margin: 25px 15px;
+
+  display: flex;
+}
+
+input:focus {
+  background-color: #000;
+  border: 1px #00bf72 dashed ;
+}
+
+::placeholder{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  }
+
+.header__search input{
+  box-sizing: border-box;
+  /* width: 100%; */
+  height: 35px;
+  /* border: 1px #444 solid; */
+  border-radius: 0px;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+
+.boton{
+  color: #181818;
+  background-color: #00bf72;
+  border: 0px;
+  width: 10%;
+  font-size: 20px;
+  margin-left: 15px;
+  font-weight: 700;
+  /* padding: 10px 20px; */
+  outline: none;
+}
+
+.boton:hover{
+  background-color: #00aa66;
+  color: white;
+}
+
+.mostrar{
+  cursor: pointer;
+  color: white;  
+  font-size: 25px;
+  margin-bottom: 15px;
+  
+}
+
+.mostrar:hover{
+ 
+}
+
+b, h3, strong{
+  color: white;
+}
+
+.lista-cursos{
+  margin-left: 20px;
+}
+
+.cursos-contenedor{
+  max-height: 250px;
+  overflow-y: auto;
+}
